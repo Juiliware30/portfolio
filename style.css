@@ -1,0 +1,215 @@
+/* General Styles */
+*{
+    
+    font-family: 'Times New Roman', Times, serif;
+     border: border-box;
+     background-color: black;
+     color: whitesmoke;
+ }
+ 
+ body {
+     margin: 0;
+     padding: 0;
+    
+ }
+ 
+ h1, h2 {
+     text-align: center;
+     font-weight: bolder;    
+ }
+ 
+ section {
+     padding: 20px;
+     border-bottom: 1px solid #ddd;
+ }
+ 
+ /* Navigation Bar Styles */
+ nav {
+     
+     padding: 10px 0;
+     height: 60px;
+     font-weight: 700;
+     font-size: larger;
+ }
+ 
+ nav ul {
+     list-style: none;
+     display: flex;
+     justify-content: center;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ nav ul li {
+     margin: 0 15px;
+ }
+ 
+ nav ul li a {
+     color: white;
+     text-decoration: none;
+ }
+ 
+ nav ul li a:hover {
+     color: #ccc;
+ }
+ 
+ /* About Us Section Styles */
+ #about
+ {
+     background-color: rgb(3, 3, 27);
+ }
+ .about-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+ }
+ 
+ .about-img img {
+     padding: 20px;
+     max-width: 300px;
+     border-radius: 50%;
+     margin-right: 20px;
+ }
+ 
+ .about-info {
+     padding: 20px;
+     max-width: 500px;
+     text-align: justify;
+     font-size: larger;
+     
+ }
+ 
+ /* Contact Us Section Styles */
+ 
+ form {
+     max-width: 500px;
+     margin: 0 auto;
+     padding: 20px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+ }
+ 
+ form div {
+     margin-bottom: 15px;
+ }
+ 
+ form label {
+     display: block;
+     margin-bottom: 5px;
+ }
+ 
+ form input, form textarea {
+     width: 100%;
+     padding: 8px;
+     border: 1px solid #ccc;
+     border-radius: 5px;
+ }
+ 
+ form button {
+     padding: 10px 20px;
+     border: none;
+     background-color: #333;
+     color: white;
+     cursor: pointer;
+ }
+ 
+ form button:hover {
+     background-color: #555;
+ }
+ 
+ 
+ /**edu**/
+ 
+ i
+ {
+ 
+     font-size: 40px;
+     
+ }
+ 
+ 
+ 
+ .education-container2 li
+ {
+     margin-top: 10px;
+     font-size: medium;
+     
+     
+ }
+ 
+ .col-sm
+ {
+     padding: 40px;
+     
+ }
+ 
+ 
+ #skills
+ {
+     padding: 40px;
+     background-color: rgb(3, 3, 27);
+ }
+ 
+ 
+ .skills .col-sm-6
+ {
+     font-weight: bold;
+     
+ }
+ 
+ 
+ 
+ .contact i{
+     font-size: 20px;
+     align-items: center;
+     font-size: medium;
+ }
+ 
+ #contact
+ {
+     padding: 40px;
+     background-color: rgb(3, 3, 27);
+ }
+ form
+ {
+     padding: 40px;
+     
+ }
+ 
+ #home
+ {
+     text-align: center;
+     background-color: rgb(3, 3, 27);
+     font-weight: bold;
+ 
+ }
+ #home button 
+ {
+     padding: 10px 20px;
+ }
+ .details
+ {
+     padding: 2px;
+    text-align: center;
+     font-size: large;
+          
+  
+ }
+
+
+ #project
+ {
+     padding: 40px;
+     background-color: rgb(3, 3, 27);
+ }
+ 
+#education
+{
+    padding: 40px;
+     background-color: rgb(3, 3, 27);
+    
+
+}
+
+ 
